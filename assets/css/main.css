@@ -3136,3 +3136,14 @@ input, select, textarea {
 					}
 
 	}
+	/* Foto de perfil circular estilo GitHub */
+	.foto-perfil {
+		width: 150px;
+		height: 150px;
+		border-radius: 50%;        /* Esto hace el círculo */
+		object-fit: cover;         /* Recorta la imagen para que no se deforme */
+		border: 4px solid rgba(255, 255, 255, 0.5);  /* Borde blanco semi-transparente */
+		box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);   /* Sombra sutil */
+		margin-bottom: 20px;       /* Espacio entre la foto y tu nombre */
+		display: inline-block;
+	}
